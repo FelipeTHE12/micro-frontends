@@ -1,5 +1,6 @@
 import faker from "faker";
 
+console.log("Container de procutos");
 let products = "";
 
 for (let i = 0; i < 5; i++) {
@@ -7,4 +8,4 @@ for (let i = 0; i < 5; i++) {
   products += `<div>${name}</div>`;
 }
 
-document.querySelector("#container-products").innerHTML = products;
+document.getElementById("container-products").innerHTML = products;

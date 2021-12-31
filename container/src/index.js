@@ -1,1 +1,2 @@
-console.log("Hellow World");
+import("./bootstrap");
+console.log("container pai");
