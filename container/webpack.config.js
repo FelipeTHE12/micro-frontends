@@ -12,6 +12,7 @@ module.exports = {
       remotes: {
         //List projects that the container can search to get additional code
         products: "products@http://localhost:8081/remoteEntry.js", //Load the file, name@url for the file
+        cart: "cart@http://localhost:8082/remoteEntry.js",
       },
     }),
     new HtmlWebpackPlugin({
